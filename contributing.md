@@ -4,6 +4,5 @@
 4. For example: git clone https://github.com/itfibonacci/evolution.git
 5. Create a branch in git inside your local machine: git checkout -b <branch-name> - creates a new branch and switches to that branch in one command. 
 6. Contribute to the project in any way you would like. There are no rules. You can add animations, fetch data from apis, etc. 
-7. Open contributors.md and add your name to the end of the file. Now, save the file.
-8. Commit those changes by doing : git commit -m "Added <your-name> to contributors list" . “-m” tells git that you are committing the changes with a message to tell people what the commit is about.
-9. Push those changes to the forked repository on Github via: git push origin <your-branch-name> replacing “<your-branch-name> with the name of the branch you created earlier.
+7. Stage your changes first by executing in the main directory of your cloned project - 'git add .'. Commit those changes by doing : git commit -m "Added <your-name> to contributors list" . “-m” tells git that you are committing the changes with a message to tell people what the commit is about.
+8. Push those changes to the forked repository on Github via: git push origin <your-branch-name> replacing “<your-branch-name> with the name of the branch you created earlier.
