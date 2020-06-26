@@ -10,28 +10,27 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://github.com/SamSamskies/evolution">Evolution!</a>
+          Welcome to <a href="https://github.com/SamSamskies/evolution" target="_blank">Evolution!</a>
         </h1>
 
-        <p className="description">
-          This is a fun idea put forth by Sam for a group of developers
-          Get started by checking out his GitHub and let's work together to see what we can build
-        </p>
+        <p className="description">This is a fun idea put forth by Sam for a group of developers.</p>
+        <p className="description">Get started by checking out his GitHub and let's work together to see what we can build.</p>
 
         <div className="contributors">
           <h3>Add your name and Github here!</h3>
-          <p><a href="https://github.com/SamSamskies">Sam</a></p>
-          <p><a href="https://github.com/MarkWillisford">Mark</a></p>
+          <p><a href="https://github.com/SamSamskies" target="_blank">Sam</a></p>
+          <p><a href="https://github.com/MarkWillisford" target="_blank">Mark</a></p>
+          <p><a href="https://github.com/itfibonacci" target="_blank">Levon</a></p>
 
         </div>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
+          <a href="https://nextjs.org/docs" className="card" target="_blank">
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
+          <a href="https://nextjs.org/learn" className="card" target="_blank">
             <h3>Learn &rarr;</h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
@@ -39,7 +38,7 @@ export default function Home() {
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"
             className="card"
-          >
+            target="_blank">
             <h3>Examples &rarr;</h3>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
@@ -47,7 +46,7 @@ export default function Home() {
           <a
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className="card"
-          >
+            target="_blank">
             <h3>Deploy &rarr;</h3>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
@@ -78,7 +77,7 @@ export default function Home() {
         }
 
         main {
-          padding: 5rem 0;
+          padding: 2rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
