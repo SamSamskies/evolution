@@ -91,6 +91,6 @@ export default function Home() {
       <style jsx global>
         {globalStyles}
       </style>
-    </div>
+    </div> 
   )
 }
