@@ -29,7 +29,7 @@ export default function Home() {
               <a href="https://github.com/SamSamskies" target="_blank">Sam</a>
               <a href="https://github.com/MarkWillisford" target="_blank">Mark</a>
               <a href="https://github.com/itfibonacci" target="_blank">Levon</a>
-              <a href="" target="_blank">Karen</a>
+              <a href="https://github.com/karleee" target="_blank">Karen</a>
             </div>
           </div>
         </div>
@@ -37,7 +37,7 @@ export default function Home() {
         <div className="grid">
           <a href="https://nextjs.org/docs" className="card" target="_blank">
             <div className="card-header">
-              <div className="image"></div>
+              <img src="/icons/document.png" alt="Document" />
               <h3>Documentation &rarr;</h3>
             </div>
             <p>Find in-depth information about Next.js features and API.</p>
@@ -45,7 +45,7 @@ export default function Home() {
 
           <a href="https://nextjs.org/learn" className="card" target="_blank">
             <div className="card-header">
-              <div className="image"></div>
+              <img src="/icons/book.png" alt="Book" />
               <h3>Learn &rarr;</h3>
             </div>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
@@ -56,7 +56,7 @@ export default function Home() {
             className="card"
             target="_blank">
             <div className="card-header">
-              <div className="image"></div>
+              <img src="/icons/code.png" alt="Code" />
               <h3>Examples &rarr;</h3>
             </div>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
@@ -67,7 +67,7 @@ export default function Home() {
             className="card"
             target="_blank">
             <div className="card-header">
-              <div className="image"></div>
+              <img src="/icons/airplane.png" alt="Airplane" />
               <h3>Deploy &rarr;</h3>
             </div>
             <p>
@@ -83,8 +83,14 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          Powered by Vercel
+        </a>
+        <a
+          href="https://www.flaticon.com/home"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Icons by Flaticon
         </a>
       </footer>
 

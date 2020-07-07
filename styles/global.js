@@ -34,14 +34,20 @@ export default css.global`
 
   footer {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-end;
     justify-content: flex-end;
     border-top: 1px solid var(--light-gray);
     width: 100%;
     margin-top: 7%;
     box-sizing: border-box;
-    padding-top: 1%;
+    padding: 1% 2% 0 2%;
+  }
+
+  footer a {
+    font-size: 12px;
+    color: var(--gray);
+    margin-bottom: 0.5%;
   }
 
   * {
@@ -64,10 +70,9 @@ export default css.global`
   }
 
   a {
+    display: inline-block;
     text-decoration: none;
     color: black;
-    box-sizing: border-box;
-    padding: 1% 2%;
   }
 
   a:hover {
@@ -127,8 +132,9 @@ export default css.global`
   }
 
   .names a {
-    box-sizing: border-box;
-    padding: 2% 5%;
+    padding: 2% 0;
+    text-align: center;
+    width: 20%;
     background: var(--light-gray);
     border-radius: 3px;
     font-weight: 500;
@@ -178,10 +184,10 @@ export default css.global`
     color: var(--pink);
   }
 
-  .card .image {
+  .card img {
     width: 2em;
     height: 2em;
-    background: orange;
+    // background: orange;
     margin-right: 3%;
   }
 
