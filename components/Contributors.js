@@ -1,15 +1,28 @@
 
-export default function Contributors(){
+export default function Contributors() {
+  /* 
+  
+  Add your name and Github here! 
+  
+  */
+  const people = [
+    { name: "Sam", githubLink: "https://github.com/SamSamskies" },
+    { name: "Mark", githubLink: "https://github.com/MarkWillisford" },
+    { name: "Levon", githubLink: "https://github.com/itfibonacci" },
+    { name: "Karen", githubLink: "https://github.com/karleee" },
+    { name: "James", githubLink: "https://github.com/ngjamesng" },
+  ];
+
+  const ContributorLink = ({ person }) => (
+    <a href={person.githubLink} target="_blank">{person.name}</a>
+  )
+
   return (
     <div className="contributors">
-    {/* Add your name and Github here! */}
-    <h2>Developers</h2>
-    <div className="names">
-      <a href="https://github.com/SamSamskies" target="_blank">Sam</a>
-      <a href="https://github.com/MarkWillisford" target="_blank">Mark</a>
-      <a href="https://github.com/itfibonacci" target="_blank">Levon</a>
-      <a href="https://github.com/karleee" target="_blank">Karen</a>
+      <h2>Developers</h2>
+      <div className="names">
+        {people.map(p => <ContributorLink person={p} key={p.githubLink} />)}
+      </div>
     </div>
-  </div>
-  )
+  );
 }

@@ -22,7 +22,7 @@ export default function Home() {
             <p className="description">This is a fun idea put forth by Sam for a group of developers.</p>
             <p className="description">Get started by checking out his GitHub and let's work together to see what we can build.</p>
           </div>
-
+        {/* See Contributors component to add your name! */}
         <Contributors />
         </div>
 
