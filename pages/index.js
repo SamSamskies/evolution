@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Contributors from '../components/Contributors';
 
 // Importing stylesheets
 import globalStyles from '../styles/global'
@@ -21,17 +22,8 @@ export default function Home() {
             <p className="description">This is a fun idea put forth by Sam for a group of developers.</p>
             <p className="description">Get started by checking out his GitHub and let's work together to see what we can build.</p>
           </div>
-
-          <div className="contributors">
-            {/* Add your name and Github here! */}
-            <h2>Developers</h2>
-            <div className="names">
-              <a href="https://github.com/SamSamskies" target="_blank">Sam</a>
-              <a href="https://github.com/MarkWillisford" target="_blank">Mark</a>
-              <a href="https://github.com/itfibonacci" target="_blank">Levon</a>
-              <a href="https://github.com/karleee" target="_blank">Karen</a>
-            </div>
-          </div>
+        {/* See Contributors component to add your name! */}
+        <Contributors />
         </div>
 
         <div className="grid">
