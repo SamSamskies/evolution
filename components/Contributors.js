@@ -1,4 +1,3 @@
-
 export default function Contributors() {
   /* 
   
@@ -11,6 +10,7 @@ export default function Contributors() {
     { name: "Levon", githubLink: "https://github.com/itfibonacci" },
     { name: "Karen", githubLink: "https://github.com/karleee" },
     { name: "James", githubLink: "https://github.com/ngjamesng" },
+    { name: "Megan", githubLink: "https://github.com/mcdevittbass"}
   ];
 
   const ContributorLink = ({ person }) => (
