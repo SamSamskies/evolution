@@ -119,9 +119,10 @@ export default css.global`
   }
 
   .contributors h2 {
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 700;
-    color: var(--gray);
+    color: var(--pink);
+    text-align: center;
   }
 
   .names {
