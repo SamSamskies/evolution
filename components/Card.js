@@ -1,24 +1,21 @@
 import { cardInfo } from '../shared/cardInfo';
 
-const CardDetails = (props) => {
-    return (
-        <a href={props.link.href} className="card" target="_blank">
-            <div className="card-header">
-                <img src={props.link.src} alt={props.link.alt} />
-                <h3>{props.link.header} &rarr;</h3>
-            </div>
-            <p>{props.link.text}</p>
-        </a>
-    )
-}
 
-const Card = (props) => {
+const Cards = (props) => {
     
     return (
         <React.Fragment>
-            { cardInfo.map(card => <CardDetails link={card}/>) }
+            { cardInfo.map(card => (
+                <a href={card.href} className="card" target="_blank">
+                    <div className="card-header">
+                        <img src={card.src} alt={card.alt} />
+                        <h3>{card.header} &rarr;</h3>
+                    </div>
+                    <p>{card.text}</p>
+                </a>
+            ))}
         </React.Fragment>
     )
 }
 
-export default Card;
+export default Cards;

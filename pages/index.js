@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Contributors from '../components/Contributors';
-import Card from '../components/Card';
+import Cards from '../components/Card';
 
 // Importing stylesheets
 import globalStyles from '../styles/global'
@@ -30,7 +30,7 @@ export default function Home() {
 
         <div className="grid">
           {/* CardInfo renders all of the card details as reusable components*/}
-          <Card />
+          <Cards />
         </div>
       </main>
 
