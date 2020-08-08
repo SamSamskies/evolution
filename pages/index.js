@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Contributors from '../components/Contributors';
-import Cards from '../components/Card';
+import Cards from '../components/Cards';
 
 // Importing stylesheets
 import globalStyles from '../styles/global'
