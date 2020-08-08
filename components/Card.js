@@ -1,4 +1,4 @@
-import { CARDS } from '../shared/cards';
+import { cardInfo } from '../shared/cardInfo';
 
 const CardDetails = (props) => {
     return (
@@ -12,13 +12,13 @@ const CardDetails = (props) => {
     )
 }
 
-const CardInfo = (props) => {
+const Card = (props) => {
     
     return (
         <React.Fragment>
-            { CARDS.map(card => <CardDetails link={card}/>) }
+            { cardInfo.map(card => <CardDetails link={card}/>) }
         </React.Fragment>
     )
 }
 
-export default CardInfo;
+export default Card;

@@ -1,4 +1,4 @@
-export const CARDS = [
+export const cardInfo = [
     {
         href: "https://nextjs.org/docs",
         src: "/icons/document.png",
