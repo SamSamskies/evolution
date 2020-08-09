@@ -15,6 +15,14 @@ export default function Home() {
       </Head>
 
       <main>
+        <nav className="navbar">
+          <h4 className="brand-logo"><img src="./icons/dinosaur.png" width="60"/>Evolution</h4>
+          <ul>
+            <li><a href="#contributor-section">Developers</a></li>
+            <li><a href="#card-section">Explore Next.js</a></li>
+            <li><a href="https://github.com/SamSamskies/evolution" target="_blank">Get Involved!</a></li>
+          </ul>
+        </nav>
         <div className="header">
           <div className="intro">
             <h1 className="title">

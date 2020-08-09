@@ -10,7 +10,8 @@ export default function Contributors() {
     { name: "Levon", githubLink: "https://github.com/itfibonacci" },
     { name: "Karen", githubLink: "https://github.com/karleee" },
     { name: "James", githubLink: "https://github.com/ngjamesng" },
-    { name: "Megan", githubLink: "https://github.com/mcdevittbass"}
+    { name: "Megan", githubLink: "https://github.com/mcdevittbass"},
+    {name: "Hannah", githubLink: "https://github.com/hannahlivnat"},
   ];
 
   const ContributorLink = ({ person }) => (
@@ -18,7 +19,7 @@ export default function Contributors() {
   )
 
   return (
-    <div className="contributors">
+    <div className="contributors" id="contributor-section">
       <h2>Developers</h2>
       <div className="names">
         {people.map(p => <ContributorLink person={p} key={p.githubLink} />)}

@@ -12,7 +12,7 @@ export default css.global`
     --blue: #0B9ED9;
   }
 
-  html, body, div, h1, h2, h3, p, a, ul {
+  html, body, .container, div, h1, h2, h3, p, a, ul {
     padding: 0;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
@@ -23,13 +23,53 @@ export default css.global`
   html {
     background: white;
     box-sizing: border-box;
-    padding: 2% 5%;
+    //padding: 2% 5%;
   }
 
   main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .navbar {
+    width: 100%;
+    margin: 0 0 3% 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--pink)
+  }
+
+  .brand-logo {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 2rem;
+    color: #fff;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .navbar ul li a {
+    margin-right: 2rem;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  .navbar ul li a:hover {
+    text-decoration: underline;    
   }
 
   footer {
@@ -133,9 +173,8 @@ export default css.global`
   }
 
   .names a {
-    padding: 2% 0;
+    padding: 2%;
     text-align: center;
-    width: 20%;
     background: var(--light-gray);
     border-radius: 3px;
     font-weight: 500;
