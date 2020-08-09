@@ -6,7 +6,7 @@ const Cards = (props) => {
     return (
         <React.Fragment>
             { cardInfo.map(card => (
-                <a href={card.href} className="card" target="_blank">
+                <a href={card.href} className="card" target="_blank" key={card.href}>
                     <div className="card-header">
                         <img src={card.src} alt={card.alt} />
                         <h3>{card.header} &rarr;</h3>
