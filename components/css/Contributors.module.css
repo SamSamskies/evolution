@@ -1,0 +1,35 @@
+.contributors {
+    width: 30%;
+    margin-right: 0;
+}
+
+.contributors h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--pink);
+    text-align: center;
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.names a {
+    padding: 2%;
+    text-align: center;
+    background: var(--light-gray);
+    border-radius: 3px;
+    font-weight: 500;
+    color: var(--mid-gray);
+    margin: 0 3% 2% 0;
+}
+
+.names a:hover {
+    background: var(--blue);
+    border-radius: 3px;
+    transition: background 0.5s;
+    color: white;
+}
