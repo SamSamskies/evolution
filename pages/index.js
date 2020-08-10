@@ -1,17 +1,17 @@
+
 import Head from 'next/head'
 import Header from '../components/Header';
-import Contributors from '../components/Contributors';
+import Footer from "../components/Footer";
 import Cards from '../components/Cards';
 
 // Importing stylesheets
 import globalStyles from '../styles/global'
 
-export default function Home() { 
-
+export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Evolution</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
@@ -21,27 +21,10 @@ export default function Home() {
           <Cards />
         </div>
       </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by Vercel
-        </a>
-        <a
-          href="https://www.flaticon.com/home"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Icons by Flaticon
-        </a>
-      </footer>
-
+      <Footer />
       <style jsx global>
         {globalStyles}
       </style>
-    </div> 
-  )
+    </div>
+  );
 }

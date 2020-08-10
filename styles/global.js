@@ -1,23 +1,30 @@
 // styles/global.js
-import css from 'styled-jsx/css'
+import css from "styled-jsx/css";
 
 export default css.global`
   :root {
     --dark-gray: #282828;
     --mid-gray: #535353;
     --gray: #757580;
-    --light-gray: #EBEBFF;
-    --orange: #FF8119;
-    --pink: #F25CA2;
-    --blue: #0B9ED9;
+    --light-gray: #ebebff;
+    --orange: #ff8119;
+    --pink: #f25ca2;
+    --blue: #0b9ed9;
   }
 
-  html, body, .container, div, h1, h2, h3, p, a, ul {
+  html,
+  body,
+  div,
+  h1,
+  h2,
+  h3,
+  p,
+  a,
+  ul {
     padding: 0;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-      Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-      sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   html {
@@ -56,7 +63,8 @@ export default css.global`
     box-sizing: border-box;
   }
 
-  h1, h2 {
+  h1,
+  h2 {
     margin-bottom: 5%;
   }
 
@@ -143,4 +151,4 @@ export default css.global`
       flex-direction: column;
     }
   }
-`
+`;
