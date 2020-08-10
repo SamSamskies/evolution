@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from '../components/Header';
 import Contributors from '../components/Contributors';
 import Cards from '../components/Cards';
 
@@ -13,29 +14,8 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Header />
       <main>
-        <nav className="navbar">
-          <h4 className="brand-logo"><img src="./icons/dinosaur.png" width="60"/>Evolution</h4>
-          <ul>
-            <li><a href="#contributor-section">Developers</a></li>
-            <li><a href="#card-section">Explore Next.js</a></li>
-            <li><a href="https://github.com/SamSamskies/evolution" target="_blank">Get Involved!</a></li>
-          </ul>
-        </nav>
-        <div className="header">
-          <div className="intro">
-            <h1 className="title">
-              Welcome to <a href="https://github.com/SamSamskies/evolution" target="_blank">Evolution!</a>
-            </h1>
-
-            <p className="description">This is a fun idea put forth by Sam for a group of developers.</p>
-            <p className="description">Get started by checking out his GitHub and let's work together to see what we can build.</p>
-          </div>
-          {/* See Contributors component to add your name! */}
-          <Contributors />
-        </div>
-
         <div className="grid">
           {/* CardInfo renders all of the card details as reusable components*/}
           <Cards />

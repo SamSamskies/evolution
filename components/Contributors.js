@@ -1,3 +1,5 @@
+import styles from './css/Contributors.module.css';
+
 export default function Contributors() {
   /* 
   
@@ -19,9 +21,9 @@ export default function Contributors() {
   )
 
   return (
-    <div className="contributors" id="contributor-section">
+    <div className={styles.contributors} id="contributor-section">
       <h2>Developers</h2>
-      <div className="names">
+      <div className={styles.names}>
         {people.map(p => <ContributorLink person={p} key={p.githubLink} />)}
       </div>
     </div>

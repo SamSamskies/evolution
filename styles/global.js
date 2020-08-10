@@ -35,43 +35,6 @@ export default css.global`
     width: 100%;
   }
 
-  .navbar {
-    width: 100%;
-    margin: 0 0 3% 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: var(--pink)
-  }
-
-  .brand-logo {
-    display: flex; 
-    flex-direction: column; 
-    align-items: flex-start;
-    justify-content: center;
-    margin-left: 2rem;
-    color: #fff;
-  }
-
-  .navbar ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .navbar ul li a {
-    margin-right: 2rem;
-    font-weight: 500;
-    color: #fff;
-  }
-
-  .navbar ul li a:hover {
-    text-decoration: underline;    
-  }
-
   footer {
     display: flex;
     flex-direction: column;
@@ -121,72 +84,6 @@ export default css.global`
 
   p {
     color: var(--mid-gray);
-  }
-
-  .header {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    margin-top: 3%;
-  }
-
-  .intro {
-    box-sizing: border-box;
-    padding: 2%;
-    width: 27%;
-    margin-right: 5%;
-    border: 3px solid black;
-    box-shadow: 10px 10px 0 var(--pink);
-  }
-
-  .intro a:hover {
-    color: var(--blue);
-    transition: color 0.25s;
-  }
-
-  .intro p {
-    line-height: 1.5;
-  }
-
-  .intro p:first-of-type {
-    margin-bottom: 4%;
-  }
-
-  .contributors {
-    width: 30%;
-    margin-right: 0;
-  }
-
-  .contributors h2 {
-    font-size: 24px;
-    font-weight: 700;
-    color: var(--pink);
-    text-align: center;
-  }
-
-  .names {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style: none;
-  }
-
-  .names a {
-    padding: 2%;
-    text-align: center;
-    background: var(--light-gray);
-    border-radius: 3px;
-    font-weight: 500;
-    color: var(--mid-gray);
-    margin: 0 3% 2% 0;
-  }
-
-  .names a:hover {
-    background: var(--blue);
-    border-radius: 3px;
-    transition: background 0.5s;
-    color: white;
   }
 
   .grid {
