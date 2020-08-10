@@ -1,8 +1,8 @@
 export default function Contributors() {
-  /* 
-  
-  Add your name and Github here! 
-  
+  /*
+
+  Add your name and Github here!
+
   */
   const people = [
     { name: "Sam", githubLink: "https://github.com/SamSamskies" },
@@ -11,6 +11,7 @@ export default function Contributors() {
     { name: "Karen", githubLink: "https://github.com/karleee" },
     { name: "James", githubLink: "https://github.com/ngjamesng" },
     { name: "Megan", githubLink: "https://github.com/mcdevittbass" },
+    { name: "Emily", githubLink: "https://github.com/eaquin1" }
   ];
 
   const ContributorLink = ({ person }) => (
