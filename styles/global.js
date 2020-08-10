@@ -32,15 +32,6 @@ export default css.global`
     box-sizing: border-box;
   }
 
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
-
   footer {
     display: flex;
     flex-direction: column;
@@ -91,15 +82,6 @@ export default css.global`
 
   p {
     color: var(--mid-gray);
-  }
-
-  .grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 65%;
-    margin-top: 5%;
   }
 
   .card {

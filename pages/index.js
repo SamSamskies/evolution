@@ -15,12 +15,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main>
-        <div className="grid">
-          {/* CardInfo renders all of the card details as reusable components*/}
-          <Cards />
-        </div>
-      </main>
       <Footer />
       <style jsx global>
         {globalStyles}
