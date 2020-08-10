@@ -23,7 +23,6 @@ export default css.global`
   html {
     background: white;
     box-sizing: border-box;
-    //padding: 2% 5%;
   }
 
   main {
