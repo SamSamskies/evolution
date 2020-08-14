@@ -13,9 +13,10 @@ export default function Home() {
         <title>Evolution</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Page />
-      <Header />
-      <Footer />
+      <Page>
+        <Header />
+        <Footer />
+      </Page>
       <style jsx global>
         {globalStyles}
       </style>
