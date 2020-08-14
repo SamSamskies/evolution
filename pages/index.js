@@ -7,18 +7,18 @@ import NavBar from "../components/NavBar";
 import globalStyles from "../styles/global";
 
 export default function Home() {
-    return (
-        <div className="container">
-            <Head>
-                <title>Evolution</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-            <NavBar />
-            <Header />
-            <Footer />
-            <style jsx global>
-                {globalStyles}
-            </style>
-        </div>
-    );
+  return (
+    <div className="container">
+      <Head>
+        <title>Evolution</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <NavBar />
+      <Header />
+      <Footer />
+      <style jsx global>
+        {globalStyles}
+      </style>
+    </div>
+  );
 }
