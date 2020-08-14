@@ -1,12 +1,13 @@
 import styles from "./css/Header.module.css";
+import Link from 'next/link';
 
 const NavBar = () => {
   return (
       <nav className={styles.navbar}>
         <h4 className={styles.brandlogo}>
-          <a href="/">
+          <Link href="/">
             <img src="./icons/dinosaur.png" width="60" />
-          </a>
+          </Link>
           Evolution
         </h4>
         <ul>
@@ -16,7 +17,7 @@ const NavBar = () => {
             </a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <Link href="/about">About</Link>
           </li>
         </ul>
       </nav>

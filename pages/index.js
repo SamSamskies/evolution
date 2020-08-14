@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import NavBar from "../components/NavBar";
+import Page from "../components/Page";
 
 // Importing stylesheets
 import globalStyles from "../styles/global";
@@ -13,7 +13,7 @@ export default function Home() {
         <title>Evolution</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <NavBar />
+      <Page />
       <Header />
       <Footer />
       <style jsx global>
