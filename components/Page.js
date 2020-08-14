@@ -1,4 +1,5 @@
 import NavBar from "./NavBar.js";
+import Head from "next/head";
 import globalStyles from "../styles/global";
 
 const Page = ({ children }) => {
