@@ -39,15 +39,22 @@ export default css.global`
     justify-content: flex-end;
     border-top: 1px solid var(--light-gray);
     width: 100%;
-    margin-top: 7%;
+    margin-top: 2%;
     box-sizing: border-box;
-    padding: 1% 2% 0 2%;
+    padding: 1% 2% 1% 2%;
   }
 
   footer a {
     font-size: 12px;
     color: var(--gray);
     margin-bottom: 0.5%;
+  }
+
+  .NextContainer {
+    width: 100%;
+    margin-left: 1.5%;
+    border-top: 1px solid var(--light-gray);
+    margin-top: 4%;
   }
 
   * {
