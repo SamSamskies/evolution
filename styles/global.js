@@ -50,13 +50,6 @@ export default css.global`
     margin-bottom: 0.5%;
   }
 
-  .NextContainer {
-    width: 100%;
-    margin-left: 1.5%;
-    border-top: 1px solid var(--light-gray);
-    margin-top: 4%;
-  }
-
   * {
     box-sizing: border-box;
   }
@@ -95,7 +88,7 @@ export default css.global`
     box-sizing: border-box;
     padding: 3%;
     width: 47%;
-    margin: 2% 3% 2% 0;
+    margin: 2% 1.5% 2% 1.5%;
     border: 2px solid black;
   }
 
