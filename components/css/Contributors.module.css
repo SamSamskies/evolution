@@ -1,6 +1,5 @@
 .contributors {
-  width: 25%;
-  margin-right: 0;
+  width: 90%;
 }
 
 .contributors h2 {
@@ -11,10 +10,7 @@
 }
 
 .names {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  list-style: none;
+  display: grid;
 }
 
 .names a {
