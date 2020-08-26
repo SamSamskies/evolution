@@ -16,8 +16,9 @@ export default function Contributors() {
     { name: "Megan", githubLink: "https://github.com/mcdevittbass" },
     { name: "Emily", githubLink: "https://github.com/eaquin1" },
     { name: "Jensen", githubLink: "https://github.com/devdav1999" },
-    { name: "sairina", githubLink: "https://github.com/sairina" }
-  ];
+    { name: "sairina", githubLink: "https://github.com/sairina" },
+    {name: "Blake", githubLink: "https://github.com/buddhablake" } 
+     ];
 
   const ContributorLink = ({ person }) => (
     <a href={person.githubLink} target="_blank">
